@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="16dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:padding="10dp"
+            android:text="Android ScrollView Example"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="Scroll Horizontal"
+            android:onClick="Scrollhorizontal"/>
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:onClick="AndroidButtonActivity"
+            android:text="AndroidButtonActivity" />
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text=" ImageButtonActivity" />
+
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text=" EditTextActivity" />
+
+        <Button
+            android:id="@+id/btn5"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="CheckBoxActivity" />
+
+        <Button
+            android:id="@+id/btn6"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="RadioButtontActivity" />
+
+        <Button
+            android:id="@+id/btn7"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="SwitchButtonActivity" />
+
+        <Button
+            android:id="@+id/btn8"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="ToggleButtonActivity" />
+
+        <Button
+            android:id="@+id/btn9"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="RatingBarActivity" />
+
+        <Button
+            android:id="@+id/btn10"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="SpinnerActivity" />
+
+        <Button
+            android:id="@+id/btn11"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="ProgressBarActivity" />
+
+        <Button
+            android:id="@+id/btn12"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="DatePickerActivity" />
+
+        <Button
+            android:id="@+id/btn13"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="TimePickerActivity" />
+
+        <Button
+            android:id="@+id/btn14"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="FloatingActionButtonActivity" />
+
+        <Button
+            android:id="@+id/btn15"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="FloatingLabelsActivity" />
+        <Button
+            android:id="@+id/btn16"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text=" SeekBarActivity" />
+        <Button
+            android:id="@+id/btn17"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="SimpleDialogActivity" />
+        <Button
+            android:id="@+id/btn18"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="CustomAlertDialogActivity" />
+        <Button
+            android:id="@+id/btn19"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="SnackbarActivity" />
+        <Button
+            android:id="@+id/btn20"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="NotificationActivity" />
+        <Button
+            android:id="@+id/btn21"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="ImageViewActivity" />
+
+        <Button
+            android:id="@+id/btn22"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="VideoViewActivity" />
+        <Button
+            android:id="@+id/btn23"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="WebViewActivity" />
+        <Button
+            android:id="@+id/btn24"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text=" SearchViewActivity" />
+        <Button
+            android:id="@+id/btn25"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="CalendarViewActivity" />
+
+    </LinearLayout>
+</ScrollView>
+
